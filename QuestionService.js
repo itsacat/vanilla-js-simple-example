@@ -17,6 +17,6 @@ class QuestionService {
                 header: 'Compare typescript objects and add diff to new object',
                 text: 'Within my Angular application, I need to compare two typescript objects and create a new object that consists of key/value pairs where the value of the key is different in the second object.'
             }
-        ]
+        ];
     }
 }

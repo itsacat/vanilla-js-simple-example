@@ -8,15 +8,15 @@ class Comment extends Component {
     render() {
         const date = this.props.date;
         return `
-			<div class='comment'>
-			    <div class='comment__author-and-date'>
+            <div class='comment'>
+                <div class='comment__author-and-date'>
                     <span class='comment__author'>${this.props.author}</span>
                     <span class='comment__date'>
                         (${date.getDay()}.${date.getMonth()}.${date.getFullYear()})
                     </span>
                 </div>
-			    <div class='comment__text'>${this.props.text}</div>
-			</div>
-		`;
+                <div class='comment__text'>${this.props.text}</div>
+            </div>
+        `;
     }
 }

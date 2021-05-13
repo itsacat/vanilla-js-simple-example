@@ -34,21 +34,21 @@ class Question extends Component {
 
     render() {
         return `
-			<div class='question'>
-				<div class='question__header'>${this.props.header}</div>
-				<div class='question__text'>
-					<p>${this.props.text}</p>
-				</div>
-				<div class='question__comments'>
-					<div class='question__comments-header'>Comments</div>
-					<div class='question__comments-list'></div>
-					<div class='question__post-comment-container'>
+            <div class='question'>
+                <div class='question__header'>${this.props.header}</div>
+                <div class='question__text'>
+                    <p>${this.props.text}</p>
+                </div>
+                <div class='question__comments'>
+                    <div class='question__comments-header'>Comments</div>
+                    <div class='question__comments-list'></div>
+                    <div class='question__post-comment-container'>
                         <input class='question__post-comment-name' placeholder='Ваше имя' />
                         <input class='question__post-comment-text' placeholder='Ваш комментарий' />
                         <button class='question__post-comment'>Add Comment</button>
-					</div>
-				</div>
-			</div>
-		`;
+                    </div>
+                </div>
+            </div>
+        `;
     }
 }
